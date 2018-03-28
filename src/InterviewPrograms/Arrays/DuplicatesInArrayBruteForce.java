@@ -4,7 +4,7 @@ public class DuplicatesInArrayBruteForce {
 
 	/**
 	 * 
-	 * @author surendra_vidiyala 03/28/2017
+	 * @author surendra_vidiyala 03/28/2018
 	 */
 	
 	/*
