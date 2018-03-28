@@ -4,8 +4,7 @@ public class TrigonometricFunctions {
 
 	/**
 	 * @author surendra_vidiyala 03/28/2018. 
-	 * how to find trigonometric values of an
-	 * angle of 90 degrees.
+	 * how to find trigonometric values of an angle of 90 degrees.
 	 */
 
 	/*
