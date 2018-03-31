@@ -1,8 +1,6 @@
 package InterviewPrograms.Arrays;
 
 import java.util.Arrays;
-import java.util.Optional;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class EqualityTwoArraysJava8 {
@@ -12,7 +10,7 @@ public class EqualityTwoArraysJava8 {
 	 *
 	 */
 
-	@SuppressWarnings({ "unchecked", "rawtypes" })
+	@SuppressWarnings({  "rawtypes", "unused" })
 	public static void main(String[] args) {
 
 		int[] arrayOne = { 21, 56, 11, 37, 24 };
