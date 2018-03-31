@@ -25,13 +25,13 @@ public class EqualityTwoArraysJava8 {
 		Stream stream1 = Arrays.stream(arrayOne).boxed();
 		Stream stream2 = Arrays.stream(arrayTwo).boxed();
 
-		Optional optionalArray1 = stream1.filter(i -> !stream2.collect(Collectors.toList()).contains(i)).findAny();
+		//Optional optionalArray1 = stream1.filter(i -> !stream2.collect(Collectors.toList()).contains(i)).findAny();
 
-		if (optionalArray1.isPresent()) {
+	//	if (optionalArray1.isPresent()) {
 		System.out.println("Arrays are not Equal");
-		return;
-		}else {
-		System.out.println("Arrays are Equal");
-		}
+	//	return;
+	//	}else {
+	//	System.out.println("Arrays are Equal");
+		//}
 	}
 }
