@@ -8,6 +8,9 @@ public class ReverseWords {
 	 * @author surendra_vidiyala 03/28/2018
 	 *
 	 */
+	/*
+	 * Program to  reverse the words within a String or Sentence.
+	 */
 
 	private void reverseWords(String line) {
 		String res = "";
