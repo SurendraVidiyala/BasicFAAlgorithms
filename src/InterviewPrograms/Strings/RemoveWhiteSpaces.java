@@ -15,14 +15,11 @@ public class RemoveWhiteSpaces {
 		String str = "  Core Java jsp servlets             jdbc struts hibernate spring  ";
 		
 		System.out.println(str.trim());
-		
 
 		// 1. Using replaceAll() Method
-
 		String strWithoutSpace = str.replaceAll("\\s", "");
 		
 		System.out.println(strWithoutSpace); // Output : CoreJavajspservletsjdbcstrutshibernatespring
-
 		// 2. Without Using replaceAll() Method
 
 		char[] strArray = str.toCharArray();
