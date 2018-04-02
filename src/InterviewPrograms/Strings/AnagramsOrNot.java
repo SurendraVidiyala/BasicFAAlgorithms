@@ -58,6 +58,8 @@ public class AnagramsOrNot {
 		isAnagram("ASTRONOMERS", "NO MORE STARS");
 		isAnagram("Toss", "Shot");
 		isAnagram("joy", "enjoy");
+		isAnagram("LISTEN", "SILENT");
+		isAnagram("TRIANGLE", "INTEGRAL");
 	}
 
 }
