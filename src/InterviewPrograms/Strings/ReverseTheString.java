@@ -14,14 +14,12 @@ public class ReverseTheString {
 	public static void main(String[] args) {
 
 		// 1. Using StringBuffer Class
-
 		String str = "JavaPractice";
 		StringBuffer sb = new StringBuffer(str);
 		StringBuffer reverse = sb.reverse();
 		System.out.println(reverse);    //Output: ecitcarPavaJ
 		
 		//2. Using iterative method
-		
 		char [] strArray = str.toCharArray();
 		
 		for(int i = strArray.length-1; i>=0; i--) {
@@ -30,7 +28,6 @@ public class ReverseTheString {
 		
 		System.out.println();
 		//3. Using Recursive Method
-		
 		System.out.println(recursiveMethod(str));    //Output: ecitcarPavaJ
 	}
 		
