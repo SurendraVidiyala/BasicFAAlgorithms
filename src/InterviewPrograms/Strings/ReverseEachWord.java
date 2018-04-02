@@ -40,5 +40,7 @@ public class ReverseEachWord {
 		reverseEachWordOfString("I am string not reversed");
 
 		reverseEachWordOfString("Reverse Me");
+		
+		reverseEachWordOfString("Full Stack Java Developer");
 	}
 }
