@@ -1,6 +1,6 @@
 package InterviewPrograms.Strings;
 
-public class IntegerToString {
+public class IntegerToStringConversion {
 
 	/**
 	 * 
@@ -14,7 +14,7 @@ public class IntegerToString {
 	 */
 	public static void main(String[] args) {
 
-		int i = 2015;
+		int i = 2018;
 		
         //Method: 1 Using toString() method.
 		String str = Integer.toString(i);
